@@ -1,0 +1,14 @@
+package helloWorld;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		Scanner hello = new Scanner(System.in);
+		System.out.println(hello);
+		
+
+	}
+
+
+
+}
