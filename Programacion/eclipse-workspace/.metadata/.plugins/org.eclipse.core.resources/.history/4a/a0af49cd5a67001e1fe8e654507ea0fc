@@ -1,0 +1,15 @@
+package ejerciciosDos;
+
+import java.util.Scanner;
+
+public class imprimirDos {
+	public static void main(String[] args) {
+		
+		String cadena;
+		
+		System.out.println("Dime una cadena de caracteres");
+		Scanner sc = new Scanner(System.in);
+		cadena = sc.nextLine();
+		System.out.println(cadena);
+		}
+}
