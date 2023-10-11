@@ -9,10 +9,14 @@ public class imprimirDos {
 		String cadena2;
 		
 		System.out.println("Dime una cadena de caracteres");
-		Scanner sc = new Scanner(System.in);
-		cadena = sc.nextLine();
-		cadena2 = cadena.substring(0,2);
+		Scanner sc	= new Scanner(System.in);
+		
+		cadena		= sc.nextLine();
+		cadena2 	= cadena.substring(0,2);
+		
 		System.out.println(cadena2);
+		
+		sc.close();
 		
 		}
 }

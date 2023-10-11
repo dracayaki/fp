@@ -1,0 +1,21 @@
+package ejerciciosDos;
+
+public class ex10 {
+
+	public static void main(String[] args) {
+		
+		int	tir1, tir2, tir3;
+		String	aux;
+		
+		System.out.println("A continuación mostraré 3 tiradas de dados, y te diré cual es mayor y cual es menor");
+		
+		tir1	=	(int)Math.random();
+		tir2	=	(int)Math.random();
+		tir3	=	(int)Math.random();
+		
+		System.out.println(tir1);
+		System.out.println(tir2);
+		System.out.println(tir3);
+	}
+	
+}

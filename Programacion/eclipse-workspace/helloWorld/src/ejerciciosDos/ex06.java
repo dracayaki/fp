@@ -5,7 +5,6 @@ public class ex06 {
 		public static void main(String[] args) {
 		
 			int tirada1, tirada2, tirada3, sumaTotal;
-			String aux1, aux2, aux3;
 			
 			System.out.println("A continuación te mostrare tres tiradas de un dado, y la suma total de ellas");
 	

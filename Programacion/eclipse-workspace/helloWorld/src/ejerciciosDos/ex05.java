@@ -9,11 +9,14 @@ public class ex05 {
 		String cadena;
 		
 		System.out.println("Dime una cadena de caracteres, y te mostraré todo en mayusculas");
-		Scanner sc = new Scanner(System.in);
-		cadena = sc.nextLine();
+		Scanner sc	= new Scanner(System.in);
+		cadena		= sc.nextLine();
 		
-		cadena = cadena.toUpperCase();
+		cadena		= cadena.toUpperCase();
+		
 		System.out.println(cadena);
+		
+		sc.close();
 	}
 	
 }
