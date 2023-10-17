@@ -1,7 +1,0 @@
-package ejerciciosDos;
-
-public class imprimirDos {
-	public static void main(String[] args) {
-		System.out.println("hola");
-		}
-}
